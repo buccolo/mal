@@ -1,0 +1,2 @@
+#!/bin/bash
+exec elixir $(dirname $0)/lib/${STEP:-stepA_mal}.exs "${@}"
